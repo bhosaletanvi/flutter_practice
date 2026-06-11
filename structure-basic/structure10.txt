@@ -1,0 +1,22 @@
+class employee{
+	String name;
+	int experience;
+	String company;
+	int salay;
+	int age;
+	String role;
+	
+	
+	laptop(String a, int b, String c ,int d, int e ,String f){
+		name = a;
+		experience = b;
+		company= c;
+		salary= d;
+		age=e;
+		role=f;
+		
+	}
+}
+
+employee chavi = new employee("tanvi",3,"TCS",9,28,"java developer");
+employee chavi = new employee("sayali",5,"Automation edge",10.7,31,"AI developer");

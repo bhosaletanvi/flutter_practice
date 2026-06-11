@@ -1,0 +1,20 @@
+class hotel{
+	String name;
+	int staff;
+	String address;
+	float rating;
+	long contact;
+	
+	
+	laptop(String a, int b, String c ,int d, long e){
+		name = a;
+		staff = b;
+		address= c;
+		rating= d;
+		contact=e;
+		
+	}
+}
+
+hotel chavi = new hotel("chandravilas",24,"powai naka",4.3,9876766896);
+hotel chavi1 = new hotel("sahi",18,"sadar bazar",3.9,8966766896);

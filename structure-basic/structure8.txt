@@ -1,0 +1,22 @@
+class book{
+	String company;
+	int pages;
+	String type;
+	int price;
+	int height;
+	int width
+	
+	
+	laptop(String a, int b, String c ,int d, int e ,int f){
+		company = a;
+		pages = b;
+		type= c;
+		price= d;
+		height=e;
+		width=f;
+		
+	}
+}
+
+book chavi = new book("yuva",20,"Drawing book",60,20,40);
+book chavi1 = new book("classmate",200,"notebook",180,40,40);

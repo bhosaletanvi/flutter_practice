@@ -1,0 +1,20 @@
+class car{
+	String color;
+	String company;
+	string model;
+	int price;
+	String owner
+	String type;
+
+	student(String a ,String b ,String c ,int d, String e, String f){
+		color=a;
+		company=b;
+		model=c;
+		price=d;
+		owner=e;
+		type=f;
+	}
+}
+
+car chavi = new car("white","toyota","fortuner",45,"sayali","cng");
+car chavi1 = new car("black","mahindra","scorpio",38,"tanvi","petrol");

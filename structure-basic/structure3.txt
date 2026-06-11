@@ -1,0 +1,14 @@
+class box{
+	int height;
+	int width;
+	String color;
+	
+	box(int a,int b, String c){
+		height=a;
+		width=b;
+		color=c;
+	}
+}
+	
+box b1=new box(10,2,"red");
+box b2=new box(20,56,"Green");

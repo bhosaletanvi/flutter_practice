@@ -1,0 +1,22 @@
+class hostel{
+	String name;
+	int capacity;
+	String mess;
+	int rent;
+	int sharing;
+	String address;
+	
+	
+	laptop(String a, int b, String c ,int d, int e ,String f){
+		name = a;
+		capacity = b;
+		mess= c;
+		rent= d;
+		sharing=e;
+		address=f;
+		
+	}
+}
+
+hostel chavi = new hostel("abc",28,"yes",2100,4,"sadar bazar");
+hostel chavi1 = new hostel("xyz",30,"no",1900,2,"powai naka");

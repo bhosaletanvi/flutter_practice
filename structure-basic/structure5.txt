@@ -1,0 +1,20 @@
+class hospital{
+	String name;
+	int doctors;
+	String address;
+	int patients;
+	int phn_no;
+	string type;
+	
+	laptop(String a, int b, String c ,int d, int e, string f){
+		name = a;
+		doctors = b;
+		address= c;
+		patients= d;
+		phn_no = e;
+		type=f
+	}
+}
+
+hospital chavi = new hospital("civil",54,"sadar bazar",180,9876766896,"government");
+hospital chavi1 = new hospital("ajinkyatara",23,"sadar bazar",78,8966766896,"private");

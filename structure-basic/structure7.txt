@@ -1,0 +1,20 @@
+class city{
+	String name;
+	int area;
+	String type;
+	int aqi;
+	int pin_code;
+	
+	
+	laptop(String a, int b, String c ,int d, int e){
+		name = a;
+		area = b;
+		type= c;
+		aqi= d;
+		pin_code=e;
+		
+	}
+}
+
+city chavi = new city("satara",10480,"non-metro",60,415011);
+city chavi1 = new city("pune",15643,"metro",94,411001);

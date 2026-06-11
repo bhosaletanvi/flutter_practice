@@ -1,0 +1,18 @@
+class laptop{
+	String company;
+	int price;
+	String color;
+	int ram;
+	int width;
+	
+	laptop(String a, int b, String c ,int d, int e){
+		company = a;
+		price = b;
+		color= c;
+		ram= d;
+		width = e;
+	}
+}
+
+laptop chavi = new laptop("HP",78,grey,264,120);
+laptop chavi1 = new laptop("DELL",85,black,148,100);

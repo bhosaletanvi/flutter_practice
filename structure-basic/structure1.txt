@@ -1,0 +1,20 @@
+class student{
+	String name;
+	String Brach;
+	int roll_no;
+	int year;
+	char div;
+	String address;
+
+	student(String a ,String b ,int c ,int d, char e, String f){
+		name=a;
+		branch=b;
+		roll_no=c;
+		year=d;
+		div=e;
+		address=f;
+	}
+}
+
+student chavi = new student("Tanvi","CSE",09,3,A,"Rewadi");
+student chavi1 = new student("sayali","AI",01,2,C,"satara");
