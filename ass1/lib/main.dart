@@ -4,6 +4,8 @@ import 'package:ass1/ass3.dart';
 import 'package:ass1/ass4.dart';
 import 'package:ass1/ass5.dart';
 import 'package:ass1/ass6.dart';
+import 'package:ass1/ass7.dart';
+import 'package:ass1/ass8.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -17,7 +19,7 @@ class Demo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  MaterialApp(
-      home: Ass6(),
+      home: Ass7(),
     );
   }
 }
