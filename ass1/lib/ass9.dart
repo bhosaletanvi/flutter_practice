@@ -24,7 +24,42 @@ class Ass9 extends StatelessWidget{
                 Container(
                   height: 500,
                   color: Colors.deepOrange,
-                )
+                ),
+                Container(
+              height: 30,
+              color: const Color.fromARGB(255, 213, 193, 230),
+              
+              child: Row(
+              
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Container(
+                    height: 20,
+                    width: 20,
+                    color: Colors.black54,
+
+                  ),
+                  Container(
+                    height: 20,
+                    width: 20,
+                    color: Colors.black54,
+                    
+                  ),
+                  Container(
+                    height: 20,
+                    width: 20,
+                    color: Colors.black54,
+                    
+                  ),
+                  Container(
+                    height: 20,
+                    width: 20,
+                    color: Colors.black54,
+                    
+                  ),
+                ],
+              ),
+            )
               ],
             ),
             Column(
@@ -44,6 +79,41 @@ class Ass9 extends StatelessWidget{
             Container(
               height: 500,
               color: Colors.deepOrange,
+            ),
+            Container(
+              height: 30,
+              color: const Color.fromARGB(255, 213, 193, 230),
+              
+              child: Row(
+              
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Container(
+                    height: 20,
+                    width: 20,
+                    color: Colors.black54,
+
+                  ),
+                  Container(
+                    height: 20,
+                    width: 20,
+                    color: Colors.black54,
+                    
+                  ),
+                  Container(
+                    height: 20,
+                    width: 20,
+                    color: Colors.black54,
+                    
+                  ),
+                  Container(
+                    height: 20,
+                    width: 20,
+                    color: Colors.black54,
+                    
+                  ),
+                ],
+              ),
             )
           ],
         ),
@@ -64,6 +134,41 @@ class Ass9 extends StatelessWidget{
             Container(
               height: 500,
               color: Colors.deepOrange,
+            ),
+            Container(
+              height: 30,
+              color: const Color.fromARGB(255, 213, 193, 230),
+              
+              child: Row(
+              
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Container(
+                    height: 20,
+                    width: 20,
+                    color: Colors.black54,
+
+                  ),
+                  Container(
+                    height: 20,
+                    width: 20,
+                    color: Colors.black54,
+                    
+                  ),
+                  Container(
+                    height: 20,
+                    width: 20,
+                    color: Colors.black54,
+                    
+                  ),
+                  Container(
+                    height: 20,
+                    width: 20,
+                    color: Colors.black54,
+                    
+                  ),
+                ],
+              ),
             )
           ],
         ),
