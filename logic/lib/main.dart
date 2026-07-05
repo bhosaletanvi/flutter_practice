@@ -5,7 +5,7 @@ import 'package:logic/ass3.dart';
 import 'package:logic/homescreen.dart';
 import 'package:logic/homescreen1.dart';
 import 'package:logic/homescreen2.dart';
-
+z
 void main() {
   runApp(const MainApp());
 }
@@ -16,7 +16,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  MaterialApp(
-      home: Homescreen2(),
+      home: homescreen(),
     );
   }
 }
