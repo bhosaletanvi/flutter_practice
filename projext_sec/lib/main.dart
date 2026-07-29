@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:projext_sec/page.dart';
 
-class demo extends StatelessWidget {
-  const demo({super.key});
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+   MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+      home:page(),
+    );
   }
 }
